@@ -6,6 +6,8 @@
 
         <title>Form Lab</title>
 
+        <link rel="stylesheet" type="text/css" href="style.css">
+
     </head>
 
     <body>
@@ -21,7 +23,7 @@
                 <input type="text" id="name" name="user_name" placeholder="User Name">
                 <label for="mail">Email:</label>
                 <input type="email" id="mail" name="user_email" placeholder="Email">
-                <label for="password">Password</label>
+                <label for="password">Password:</label>
                 <input type="password" id="password" name="user_password" placeholder="Password">
 
                 <label>Age:</label>
@@ -45,15 +47,18 @@
                         <option value="frontend_developer">Front-End Developer</option>
                         <option value="php_developer">PHP Developer</option>
                         <option value="python_developer">Python Developer</option>
-                        <option value="web_developer">Front-End Developer</option>
-                        <option value="wordpress_developer">Front-End Developer</option>
+                        <option value="web_developer">Web Developer</option>
+                        <option value="wordpress_developer">Wordpress Developer</option>
                     </optgroup>
-                    <option value="android_developer">Front-End Developer</option>
-                    <option value="ios_developer">Front-End Developer</option>
-                    <option value="mobile_designer">Front-End Developer</option>
-
-                    <option value="business_owner">Front-End Developer</option>
-                    <option value="freelancer">Freelancer</option>
+                    <optgroup label="Mobile">
+                        <option value="android_developer">Android Developer</option>
+                        <option value="ios_developer">iOS Developer</option>
+                        <option value="mobile_designer">Mobile Developer</option>
+                    </optgroup>
+                        <optgroup label="Business">
+                        <option value="business_owner">Business Owner</option>
+                        <option value="freelancer">Freelancer</option>
+                    </optgroup>
                 </select>
 
                 <label>Interests:</label>
