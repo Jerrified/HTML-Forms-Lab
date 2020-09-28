@@ -25,3 +25,10 @@ a button:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+span {
+    padding: 10px;
+    background-color: rgb(152,207,113);
+    border-color: black;
+    border-radius: 80px;
+}
