@@ -1,5 +1,6 @@
 body {
     background-color: blanchedalmond;
+    font-family: 'Nunito', sans-serif;
 }
 
 p {
@@ -31,4 +32,9 @@ span {
     background-color: rgb(152,207,113);
     border-color: black;
     border-radius: 80px;
+}
+
+.info {
+    background-color: rgb(152,207,113);
+    padding: 10px;
 }
